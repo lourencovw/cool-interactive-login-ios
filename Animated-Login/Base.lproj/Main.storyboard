@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animated_Login" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ct1-ZX-VEB">
+                                <rect key="frame" x="37" y="436" width="340" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="57N-cA-zPN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" textContentType="email"/>
+                                <connections>
+                                    <action selector="nameChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="7YX-QP-3gy"/>
+                                    <action selector="nameFocus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Ur-Yp-D2w"/>
+                                    <action selector="nameFocused:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VlL-hf-3DD"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yxb-9c-1ge">
+                                <rect key="frame" x="38" y="500" width="339" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="Cuu-VD-Wkq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                                <connections>
+                                    <action selector="beginEditing:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="ukM-Hm-9LE"/>
+                                    <action selector="passWordChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="GHY-7c-Qud"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="tintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yxb-9c-1ge" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="38" id="B0t-S9-obR"/>
+                            <constraint firstItem="yxb-9c-1ge" firstAttribute="top" secondItem="ct1-ZX-VEB" secondAttribute="bottom" constant="22" id="JaY-b9-8pg"/>
+                            <constraint firstItem="yxb-9c-1ge" firstAttribute="top" secondItem="ct1-ZX-VEB" secondAttribute="bottom" constant="22" id="LMI-Rz-xA2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yxb-9c-1ge" secondAttribute="bottom" constant="320" id="Ryu-aS-Szr"/>
+                            <constraint firstItem="ct1-ZX-VEB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="37" id="kwq-Cp-pXa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yxb-9c-1ge" secondAttribute="trailing" constant="37" id="ojl-Ir-mP3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ct1-ZX-VEB" secondAttribute="trailing" constant="37" id="tQM-ER-r2n"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="nameField" destination="ct1-ZX-VEB" id="CwY-uh-l48"/>
+                        <outlet property="passwordField" destination="yxb-9c-1ge" id="zgG-Bg-dNS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+</document>
