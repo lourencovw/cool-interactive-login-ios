@@ -13,9 +13,9 @@
 		B279CD892466C62C00D9CFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B279CD872466C62C00D9CFF8 /* Main.storyboard */; };
 		B279CD8B2466C62F00D9CFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B279CD8A2466C62F00D9CFF8 /* Assets.xcassets */; };
 		B279CD8E2466C62F00D9CFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B279CD8C2466C62F00D9CFF8 /* LaunchScreen.storyboard */; };
-		B279CD9A2466C7E000D9CFF8 /* teste1.json in Resources */ = {isa = PBXBuildFile; fileRef = B279CD992466C7E000D9CFF8 /* teste1.json */; };
 		B2CD6F9A2466E6EA007EECAC /* Pods_Animated_Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602308DF7BF16B06901CAB5D /* Pods_Animated_Login.framework */; };
 		B2CD6F9B2466E6EA007EECAC /* Pods_Animated_Login.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 602308DF7BF16B06901CAB5D /* Pods_Animated_Login.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B2FF5EE624C496D200F7CE8D /* animation.json in Resources */ = {isa = PBXBuildFile; fileRef = B2FF5EE524C496D100F7CE8D /* animation.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,7 +43,7 @@
 		B279CD8A2466C62F00D9CFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B279CD8D2466C62F00D9CFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B279CD8F2466C62F00D9CFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B279CD992466C7E000D9CFF8 /* teste1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = teste1.json; path = ../../../Dropbox/teste1.json; sourceTree = "<group>"; };
+		B2FF5EE524C496D100F7CE8D /* animation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = animation.json; sourceTree = "<group>"; };
 		E758DBA1D2BEE14B12A7F27D /* Pods-Animated-Login.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Animated-Login.debug.xcconfig"; path = "Target Support Files/Pods-Animated-Login/Pods-Animated-Login.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,7 +97,7 @@
 		B279CD802466C62C00D9CFF8 /* Animated-Login */ = {
 			isa = PBXGroup;
 			children = (
-				B279CD992466C7E000D9CFF8 /* teste1.json */,
+				B2FF5EE524C496D100F7CE8D /* animation.json */,
 				B279CD812466C62C00D9CFF8 /* AppDelegate.swift */,
 				B279CD832466C62C00D9CFF8 /* SceneDelegate.swift */,
 				B279CD852466C62C00D9CFF8 /* ViewController.swift */,
@@ -171,8 +171,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B279CD8E2466C62F00D9CFF8 /* LaunchScreen.storyboard in Resources */,
-				B279CD9A2466C7E000D9CFF8 /* teste1.json in Resources */,
 				B279CD8B2466C62F00D9CFF8 /* Assets.xcassets in Resources */,
+				B2FF5EE624C496D200F7CE8D /* animation.json in Resources */,
 				B279CD892466C62C00D9CFF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

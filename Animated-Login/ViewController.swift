@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
     
     private func setupAnimation() {
-        animationView.animation = Animation.named("teste1")
+        animationView.animation = Animation.named("animation")
         animationView.frame = CGRect(x: 0, y: 0, width: 414, height: 414)
         animationView.backgroundColor = .white
         animationView.contentMode = .scaleAspectFit
